@@ -1,0 +1,56 @@
+/* .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(19, 18, 18, 0.2);
+  z-index: 999;
+} */
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(57, 57, 57);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px 2px rgb(111, 141, 111);
+  z-index: 1000;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.modalLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+
+  & span {
+    font-weight: bold;
+  }
+}
+
+.modalInput {
+  padding: 8px 12px;
+  border: none;
+  box-shadow: 1px 1px 2px 2px rgb(111, 141, 111);
+  border-radius: 8px;
+  min-width: 300px;
+}
+
+.modalBtn:hover {
+  background-color: green;
+  color: white;
+  border-color: white;
+}

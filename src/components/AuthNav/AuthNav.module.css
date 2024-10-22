@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  gap: 50px;
+  padding-right: 25px;
+}
+
+.link {
+  color: rgb(212, 194, 190);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: burlywood;
+}

@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(48, 48, 48);
+  padding: 15px;
+  padding-left: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

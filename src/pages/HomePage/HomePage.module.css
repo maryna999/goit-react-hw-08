@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.welcome {
+  color: rgb(212, 194, 190);
+  font-size: 50px;
+  font-weight: bold;
+}
